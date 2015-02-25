@@ -26,7 +26,7 @@
     "mocha": "latest"
   },
   "scripts": {
-    "test": "open tests/index.html"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
