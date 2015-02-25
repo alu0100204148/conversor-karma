@@ -4,3 +4,10 @@
 
 > Autor: Alexis López
 # conversor-karma
+
+
+Uso
+
+npm install
+
+node_modules/karma/bin/karma start
