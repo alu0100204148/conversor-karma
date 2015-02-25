@@ -13,15 +13,14 @@ module.exports = function(config) {
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
     frameworks: ['mocha'],
     
-    
+
     client: {
           mocha: {
             ui: 'tdd'
           }
     },
     
-
-
+    
     // list of files / patterns to load in the browser
     files: [
       'tests/test.html',
@@ -29,9 +28,6 @@ module.exports = function(config) {
       'temperature.js'
     ],
     
-    
-    
-
     // list of files to exclude
     exclude: [
       'gulpfile.js'
