@@ -1,1 +1,0 @@
-"use strict";function calculate(){var e,n=document.getElementById("original"),t=n.value,i=/^\s*([-+]?\d+(?:\.\d+)?(?:e[+-]?\d+)?)\s*([cf])\s*$/i,a=t.match(i);if(a){var r=a[1],s=a[2];r=parseFloat(r),"c"==s||"C"==s?(e=9*r/5+32,e+="º Farenheit"):(e=5*(r-32)/9,e+="º Celsius"),converted.innerHTML=e}else converted.innerHTML="ERROR! Try something like '-4.2C' instead"}
