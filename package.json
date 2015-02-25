@@ -26,16 +26,16 @@
     "mocha": "latest"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alu0100204148/conversor.git"
+    "url": "https://github.com/alu0100204148/conversor-karma.git"
   },
   "author": "Alexis H. Lopez W",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alu0100204148/conversor/issues"
+    "url": "https://github.com/alu0100204148/conversor-karma/issues"
   },
-  "homepage": "https://github.com/alu0100204148/conversor"
+  "homepage": "https://github.com/alu0100204148/conversor-karma"
 }
