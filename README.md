@@ -1,6 +1,6 @@
-#Práctica 1
+#Práctica 1.1
 
-##  Conversor de Temperaturas
+##  Conversor de Temperaturas-karma
 
 > Autor: Alexis López, Marcos Luis
 ## Uso
